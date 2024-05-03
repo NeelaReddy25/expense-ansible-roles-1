@@ -1,4 +1,4 @@
-- name: install MySQL server- name: Install MySQL Server
+- name: install MySQL server
   ansible.builtin.dnf:
     name: mysql-server
     state: latest
