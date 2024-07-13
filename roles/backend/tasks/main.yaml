@@ -48,6 +48,7 @@
     name: all
   notify:
   - daemon reload
+  
 # - name: daemon reload
 #   ansible.builtin.systemd_service:
 #     daemon_reload: true
